@@ -1,0 +1,6 @@
+import os
+import shutil
+from_dir="C:/Users/tejas/Desktop/No/document_files"
+to_dir="C:/Users/tejas/Desktop"
+list_of_files = os.listdir(from_dir)
+print(list_of_files)
